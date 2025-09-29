@@ -41,7 +41,7 @@ if (pimple.transonic())
 
         if (pimple.finalNonOrthogonalIter())
         {
-            phi == pEqn.flux();
+            phi = pEqn.flux();
         }
     }
 }
